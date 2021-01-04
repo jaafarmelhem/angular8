@@ -15,6 +15,10 @@ import { ShowDepComponent } from './department/show-dep/show-dep.component';
 import { EditDepComponent } from './department/edit-dep/edit-dep.component';
 import { AddDepComponent } from './department/add-dep/add-dep.component';
 
+import {DepartmentService} from 'src/app/services/department.service'
+import {EmployeeService} from 'src/app/services/employee.service'
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +37,7 @@ import { AddDepComponent } from './department/add-dep/add-dep.component';
     BrowserAnimationsModule,
     MatInputModule
   ],
-  providers: [],
+  providers: [DepartmentService, EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

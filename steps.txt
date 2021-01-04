@@ -1,0 +1,23 @@
+following https://www.udemy.com/course/angular-8/
+1- Download SQL Server developer edition 2019
+2- Download SQL Server Management Studio (SSMS): 
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15
+3- In SQL Server Management Studio : (LAP-00130) New Query ................ (Check the sql files)
+4- Download Visual studio
+5- Create a new web api project with visual studio (.Net Framework)
+6- Download postman
+7- Download Node.js
+8- Download Angular cli --> ( ng version ) in node.js command prompt to test if installed
+9- Download Visual Studio code
+10- Create a new angular app (ng new angular8) in node.js command prompt - angular8 is the project name
+11- cd angular8
+12- code .  (to open visual studio code)
+13- ng serve --open
+14- http://localhost:4200/
+15- add material angular to project
+16- create components: (ng generate component employee)
+17- (ng generate cmponent employee/show-emp)
+........................
+18- Create models for employee and department]
+19- ng generate service services/department
+20- 

@@ -1,21 +1,25 @@
-<div style ="text-align: center;">
-  <h1>
-   {{ title }} !
-  </h1>
+<div class="container">
 
-  <button type="button" class="btn btn-primary">Primary</button>
+  <h3 class="d-flex justify-content-center">Angular 8 with Web API Demo</h3>  
+  <h5 class="d-flex justify-content-center">Employee Management Portal</h5>  
 
-  <!--https://material.angular.io/components/input/overview-->
-  <form class="example-form">
-    <mat-form-field class="example-full-width">
-      <mat-label>Favorite food</mat-label>
-      <input matInput placeholder="Ex. Pizza" value="Sushi">
-    </mat-form-field>
-
-    <mat-form-field class="example-full-width">
-      <mat-label>Leave a comment</mat-label>
-      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
-    </mat-form-field>
-  </form>
-
+  <nav class="navbar navbar-expand-sm bg-light navbark-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <button class="m-1 btn btn-light btn-outline-primary" Button
+        label = "DepScreen"
+        (click) = "DepScreen=true; EmpScreen=false;">
+        Departments
+      </button>
+      </li>
+      <li class="nav-item">
+        <button class="m-1 btn btn-light btn-outline-primary" Button
+        label = "EmpScreen"
+        (click) = "DepScreen=false; EmpScreen=true;">
+        Employees
+      </button>
+      </li>
+    </ul>
+  
+  </nav>
 </div>

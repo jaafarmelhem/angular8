@@ -9,7 +9,7 @@ export class DepartmentComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }

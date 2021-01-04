@@ -1,7 +1,7 @@
-export class Employee {
-    EmployeeID: number
+export class Employee{
+    EmployeeID:number
     EmployeeName: string
     Department: string
-    MailID: string
+    MailID:string
     DOJ: Date
 }

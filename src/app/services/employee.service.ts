@@ -16,7 +16,8 @@ export class EmployeeService {
 
   formData: Employee;
 
-  readonly APIUrl = "http://localhost:49902/api";
+  //readonly APIUrl = "http://localhost:49902/api";
+  readonly APIUrl = "https://localhost:44318/api";
 
   getEmpList(): Observable<Employee[]> {
     return this.http.get<Employee[]>(this.APIUrl + '/Employee');

@@ -80,7 +80,7 @@ namespace WebApi.Controllers
 
                 return "Added Successfully";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return "Failed to Add";
             }
@@ -124,7 +124,7 @@ namespace WebApi.Controllers
 
                 return "Updated Successfully";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return "Failed to Update";
             }
@@ -155,7 +155,7 @@ namespace WebApi.Controllers
 
                 return "Deleted Successfully";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return "Failed to Delete";
             }
